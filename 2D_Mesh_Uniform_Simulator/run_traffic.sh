@@ -1,0 +1,11 @@
+#!/bin/sh
+INJECTION_RATE=0.05
+NOC_WIDTH=8
+NOC_HEIGHT=8
+NOC_DEPTH=2
+
+TIME=1000000
+for((i=0; i<=3; i+=1));
+do
+    ./3d_omesh $INJECTION_RATE $NOC_WIDTH $NOC_HEIGHT $NOC_DEPTH $TIME 0 $i &
+done

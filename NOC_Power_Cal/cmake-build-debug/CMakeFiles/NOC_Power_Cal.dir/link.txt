@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/NOC_Power_Cal.dir/main.cpp.o CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o  -o NOC_Power_Cal 

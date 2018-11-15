@@ -1,0 +1,3 @@
+/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir

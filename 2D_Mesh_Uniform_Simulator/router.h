@@ -227,10 +227,12 @@ public:
 			
 			k = TO_PROCESSOR;	
 			for (int a=0; a<port_no; a++) {
-			    j=(a+rr_pos[k])%port_no;	
-				int direction = routing(request[j][read[j]].data_flit, j);				
+			    j=(a+rr_pos[k])%port_no;
+				int direction = routing(request[j][read[j]].data_flit, j);
 				if (read[j] != write[j] && direction == k) {
-					if(j== TO_PROCESSOR) {  
+					if(j== TO_PROCESSOR) {
+						cout << "j\t" << "direction\t" << "k\t" << id << endl;
+						cout << j << "\t" << direction << "\t" << k << "\t" << id<< endl;
 						cout<<"error!! the destination is the source processor"<<endl;
 					}
 					
@@ -565,7 +567,9 @@ public:
  * 1 - torus xy with resend
  * 2 - mesh  xy
  * 3 - mesh  q-learning with resend
- * 4 - MESH  odd-even random routing algorithn
+ * 4 - MESH  odd-even random routing algorithm
+ * 5 - West First
+ * 6 - Negative First
  * */
 
 
@@ -836,6 +840,64 @@ int routing(flit_type head_flit, int j){
 			cout << "d\t" << "avil_d size"<< endl;
 			cout << d << "\t" << avil_d.size()<< endl;
 			break;
+
+	    case 5:
+	        if (dst_x == pos_x){
+	            if (dst_y > pos_y){
+	                d = 3;
+	            }else{
+	                d = 4;
+	            }
+	        }else if (dst_y == pos_y){
+	            if(dst_x > pos_x){
+	                d = 2;
+	            }else{
+	                d = 1;
+	            }
+	        }else if (dst_x < pos_x){
+	            d = 1;
+	        }else if (dst_y > pos_y){
+	            avil_d.push_back(3);
+	            avil_d.push_back(2);
+
+                d =  avil_d[rand()%avil_d.size()];
+	        }else {
+	            avil_d.push_back(2);
+	            avil_d.push_back(4);
+
+                d =  avil_d[rand()%avil_d.size()];
+	        }
+	        break;
+
+	    case 6:
+            if (dst_x == pos_x){
+                if (dst_y > pos_y){
+                    d = 3;
+                }else{
+                    d = 4;
+                }
+            }else if (dst_y == pos_y){
+                if(dst_x > pos_x){
+                    d = 2;
+                }else{
+                    d = 1;
+                }
+            }else if (dst_x > pos_x && dst_y > pos_y){
+                avil_d.push_back(3);
+                avil_d.push_back(2);
+
+                d = avil_d[rand()%avil_d.size()];
+            }else if (dst_x < pos_x && dst_y > pos_y){
+                d = 1;
+            }else if (dst_x > pos_x && dst_y < pos_y){
+                d = 4;
+            }else {
+                avil_d.push_back(4);
+                avil_d.push_back(1);
+                d = avil_d[rand()%avil_d.size()];
+            }
+
+            break;
 
 		default:
 			d = 0;

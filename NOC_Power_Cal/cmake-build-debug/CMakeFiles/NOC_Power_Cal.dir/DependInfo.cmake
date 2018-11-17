@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/graph/graph.cpp" "/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o"
-  "/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/main.cpp" "/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir/main.cpp.o"
+  "/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/graph/graph.cpp" "/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o"
+  "/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/main.cpp" "/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

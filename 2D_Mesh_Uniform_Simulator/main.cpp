@@ -43,9 +43,15 @@ int sc_main(int argc, char* argv[]) {
 		string coreid;      // temp core id
 		double temperature; // temp temperature of noc
 		temperature_file >> coreid >> temperature ;
-		chip_temp[i] = temperature;
+		chip_temp[i] = temperature - 273.15;
 	}
 
+	for(int i= 0; i < NOC_HEIGHT; i++){
+		for(int j =0; j < NOC_WIDTH; j++){
+			cout << chip_temp[i*NOC_WIDTH + j] << "\t";
+		}
+		cout << endl;
+	}
 	// parameters
 	link_length = CHIP_W / NOC_WIDTH ;
 	lambda_MR_0_new= lambda_VCSEL_0 - (row_MR * (point_temp - T_0));

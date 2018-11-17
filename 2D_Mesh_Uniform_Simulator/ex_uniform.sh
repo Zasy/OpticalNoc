@@ -20,7 +20,7 @@ do
 for((n=0; n<=2; n++)); # 设置 温度分布
 do
 
-for((j=2; j<=4; j++)); # 设置 路由
+for((j=5; j<=6; j++)); # 设置 路由
 do
 
 for((i=1; i<=30; i+=3)); # 设置 Injection_Rate

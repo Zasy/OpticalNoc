@@ -43,10 +43,10 @@ RM = "/Users/tx-markzzhang/Library/Application Support/JetBrains/Toolbox/apps/CL
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tx-markzzhang/learning_noc/NOC_Power_Cal
+CMAKE_SOURCE_DIR = /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NOC_Power_Cal.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/NOC_Power_Cal.dir/flags.make
 
 CMakeFiles/NOC_Power_Cal.dir/main.cpp.o: CMakeFiles/NOC_Power_Cal.dir/flags.make
 CMakeFiles/NOC_Power_Cal.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NOC_Power_Cal.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NOC_Power_Cal.dir/main.cpp.o -c /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NOC_Power_Cal.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NOC_Power_Cal.dir/main.cpp.o -c /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/main.cpp
 
 CMakeFiles/NOC_Power_Cal.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NOC_Power_Cal.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/main.cpp > CMakeFiles/NOC_Power_Cal.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/main.cpp > CMakeFiles/NOC_Power_Cal.dir/main.cpp.i
 
 CMakeFiles/NOC_Power_Cal.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NOC_Power_Cal.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/main.cpp -o CMakeFiles/NOC_Power_Cal.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/main.cpp -o CMakeFiles/NOC_Power_Cal.dir/main.cpp.s
 
 CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o: CMakeFiles/NOC_Power_Cal.dir/flags.make
 CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o: ../graph/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o -c /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/graph/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o -c /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/graph/graph.cpp
 
 CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/graph/graph.cpp > CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/graph/graph.cpp > CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.i
 
 CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/graph/graph.cpp -o CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/graph/graph.cpp -o CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.s
 
 # Object files for target NOC_Power_Cal
 NOC_Power_Cal_OBJECTS = \
@@ -95,7 +95,7 @@ NOC_Power_Cal: CMakeFiles/NOC_Power_Cal.dir/main.cpp.o
 NOC_Power_Cal: CMakeFiles/NOC_Power_Cal.dir/graph/graph.cpp.o
 NOC_Power_Cal: CMakeFiles/NOC_Power_Cal.dir/build.make
 NOC_Power_Cal: CMakeFiles/NOC_Power_Cal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable NOC_Power_Cal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable NOC_Power_Cal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NOC_Power_Cal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/NOC_Power_Cal.dir/clean:
 .PHONY : CMakeFiles/NOC_Power_Cal.dir/clean
 
 CMakeFiles/NOC_Power_Cal.dir/depend:
-	cd /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tx-markzzhang/learning_noc/NOC_Power_Cal /Users/tx-markzzhang/learning_noc/NOC_Power_Cal /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug /Users/tx-markzzhang/learning_noc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug /Users/tx-markzzhang/learning_noc/OpticalNoc/NOC_Power_Cal/cmake-build-debug/CMakeFiles/NOC_Power_Cal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NOC_Power_Cal.dir/depend
 

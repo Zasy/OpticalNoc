@@ -1,0 +1,10 @@
+#!/bin/sh
+INJECTION_RATE=0.1
+
+TIME=10000
+NOC_WIDTH=8
+NOC_HEIGHT=8
+NOC_DEPTH=1
+
+./3d_omesh $INJECTION_RATE $NOC_WIDTH $NOC_HEIGHT $NOC_DEPTH $TIME 2 0 temperature/8x8center_block.steady
+

@@ -191,6 +191,8 @@ double GetXYNocLoss(vector<double> chip_temp){
             vector<int> p = getXYPath(s, d);
 
             loss += GetPathLoss(p, chip_temp);
+
+            cout << s << "\t" << d << "\t" << GetPathLoss(p, chip_temp) << endl;
         }
     }
 
@@ -274,12 +276,14 @@ int main()
     // Create a graph given in the above diagram
     int process_no = NOC_HEIGHT * NOC_WIDTH;
     vector<double> chip_temp;
-    readTemperatureFile("8x8steady.txt", chip_temp);
+    readTemperatureFile("../TemperatureResult/center-block/8x8.steady", chip_temp);
 
 
-    cout << "Proposed\t" << "XY" << endl;
-    cout << GetNocLoss(chip_temp) << "\t" << GetXYNocLoss(chip_temp);
+//    cout << "Proposed\t" << "XY" << endl;
+//    cout << GetNocLoss(chip_temp) << "\t" << GetXYNocLoss(chip_temp);
 
     //getNocXYWorstLoss(chip_temp);
+
+    GetXYNocLoss(chip_temp);
 
 }

@@ -71,11 +71,11 @@ int sc_main(int argc, char* argv[]) {
 	const char* c_trace_name = trace_name.c_str();
 	trace_list_log.open(c_trace_name, ios::out| ios::app);
 
-	loss_name = fold_name + "loss.txt";
+	loss_name = fold_name + to_string(routing_algo)+ "_loss.txt";
 	const char* c_loss_name = loss_name.c_str();
 	loss_list_log.open(c_loss_name, ios::out| ios::app);
 
-	power_name = fold_name + "power.txt";
+	power_name = fold_name + to_string(routing_algo)  +"_power.txt";
 	const char* c_power_name = power_name.c_str();
 	power_list_log.open(c_power_name, ios::out| ios::app);
 

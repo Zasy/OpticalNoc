@@ -9,9 +9,9 @@ NOC_DEPTH=1
 # ./3d_omesh $INJECTION_RATE $NOC_WIDTH $NOC_HEIGHT $NOC_DEPTH $TIME 0 0 temperature/8x8center_block.steady
 
 chip_temp_files=(
-./temperature/8x8center_block.steady
-./temperature/8x8corner_block.steady
-./temperature/8x8narrow_strait.steady
+./TemperatureResult/center-block/8x8.steady
+./TemperatureResult/corner-block/8x8.steady
+./TemperatureResult/narrow-strait/8x8.steady
 )
 
 for((m=0; m<=3; m++)); # 设置 traffic

@@ -849,9 +849,6 @@ public:
 								router_forward_interface temp_data;
 								temp_data.data_flit=temp_flit;
 
-
-
-
 								//data_out[direction].write(temp_data);
 								data_out[direction].write(request[j][read[j]]);
 								buffer_req_out[direction]=1;
@@ -1003,305 +1000,6 @@ public:
 	x = (address - z*(NOC_WIDTH * NOC_HEIGHT)) % NOC_WIDTH;
 	assert (address == z*(NOC_WIDTH*NOC_HEIGHT)+y*NOC_WIDTH + x);
 }
-/*
-	int  routing(flit_type head_flit, int j) {
-		int dst=head_flit.dest;
-		int dst_x=-1;
-		int dst_y=-1;
-		int dst_z=-1;
-		get_xyz(dst, dst_x, dst_y, dst_z);
-
-		int d = -1;
-
-		if (pos_x != dst_x) {
-			if (pos_x < dst_x) {
-				if((dst_x - pos_x) <= (pos_x + NOC_WIDTH - dst_x)){
-					d = RIGHT;
-				}else{
-					d = LEFT;
-				}
-			}
-			else if (pos_x > dst_x) {
-				if ((pos_x - dst_x) <= (dst_x + NOC_WIDTH - pos_x)){
-					d = LEFT;
-				}else{
-					d = RIGHT;
-				}
-			}
-
-		}
-		else if(pos_y != dst_y){
-			if (pos_y < dst_y){
-				if((dst_y - pos_y) <= (pos_y + NOC_WIDTH - dst_y)){
-					d = UP;
-				}else {
-					d = DOWN;
-				}
-			}
-			else if (pos_y > dst_y){
-				if((pos_y - dst_y) <= (dst_y + NOC_WIDTH - pos_y)){
-					d = DOWN;
-				}else {
-					d = UP;
-				}
-			}
-		}
-		else {
-			if (pos_z < dst_z) {
-				d = TSV_UP;
-			}
-			else if (pos_z > dst_z) {
-				d = TSV_DOWN;
-			}
-			else {
-				d = TO_PROCESSOR;
-			}
-
-		}
-
-		if (d<0) {
-				assert(0);
-		}
-
-        //cout<<d<<"   ";
-		return d;
-
-	}
-*/
-/*
-	int  routing(flit_type head_flit, int j) {
-		int dst=head_flit.dest;
-		int dst_x=-1;
-		int dst_y=-1;
-		int dst_z=-1;
-		get_xyz(dst, dst_x, dst_y, dst_z);
-
-		int d = -1;
-
-		if (pos_x != dst_x) {
-			if (pos_x < dst_x) {
-				d = RIGHT;
-			}
-			else if (pos_x > dst_x) {
-				d = LEFT;
-			}
-
-		}
-		else if (pos_y != dst_y){
-			if (pos_y < dst_y) {
-				d = UP;
-			}
-			else if (pos_y > dst_y) {
-				d = DOWN;
-			}
-
-		}
-		else {
-			if (pos_z < dst_z) {
-				d = TSV_UP;
-			}
-			else if (pos_z > dst_z) {
-				d = TSV_DOWN;
-			}
-			else {
-				d = TO_PROCESSOR;
-			}
-
-		}
-
-		if (d<0) {
-				assert(0);
-		}
-
-        //cout<<d<<"   ";
-		return d;
-	}
-*/
-/*
-	int  routing(flit_type head_flit, int j) {
-		int dst=head_flit.dest;
-		int dst_x=-1;
-		int dst_y=-1;
-		int dst_z=-1;
-		get_xyz(dst, dst_x, dst_y, dst_z);
-
-		vector<int> avil_d;
-
-		int d, direction;
-		double temp_value;
-
-		if(dst == head_flit.src){
-			return 1;
-		}
-		
-		if((dst_x == pos_x) && (dst_y == pos_y) && (dst_z == pos_z)){
-			return TO_PROCESSOR;
-		}
-
-		if (pos_x != dst_x) {
-			if (pos_x < dst_x) {
-				avil_d.push_back(RIGHT);
-			}
-			else if (pos_x > dst_x) {
-				avil_d.push_back(LEFT);
-			}
-
-		}
-		if (pos_y != dst_y){
-			if (pos_y < dst_y) {
-				avil_d.push_back(UP);
-			}
-			else if (pos_y > dst_y) {
-				avil_d.push_back(UP);
-			}
-
-		}
-		
-		if (pos_z < dst_z) {
-			avil_d.push_back(TSV_UP);
-		}
-		else if (pos_z > dst_z) {
-			avil_d.push_back(TSV_DOWN);
-		}
-
-
-
-		if (d<0) {
-				assert(0);
-		}
-
-        d = avil_d[0];
-		temp_value = qtable[dst][d - 1];
-		for (int i = 1; i < avil_d.size(); i++){
-			direction = avil_d[i];
-			if (qtable[dst][direction - 1] < temp_value){
-
-				// cout << "size: " << avil_d.size() << endl;
-				// cout << "temp_value: " << temp_value << endl;
-				// cout << "compare_value: " << qtable[dst][direction - 1] << endl;
-				// cout << endl; 
-				d = direction;
-				temp_value = qtable[dst][d - 1];
-			}
-		}
-
-		return d;
-	}
-
-
-
-*/
-/*
-int routing(flit_type head_flit, int j){
- 	int dst=head_flit.dest;
-	int src = head_flit.src;
-	
-	int dst_x=-1;
-	int dst_y=-1;
-	int dst_z=-1;
-
-	int src_x = -1;
-	int src_y = -1;
-	int src_z = -1;
-
-	get_xyz(dst, dst_x, dst_y, dst_z);
-	get_xyz(src, src_x, src_y, src_z);
-	vector<int> avil_d;
-
-	int d, direction;
-	double temp_value;
-
-	int e_x = dst_x - pos_x;
-	int e_y = dst_y - pos_y;
-
-	if(dst == head_flit.src){
-		return 1;
-	}
-	
-	if((dst_x == pos_x) && (dst_y == pos_y) && (dst_z == pos_z)){
-		return TO_PROCESSOR;
-	}
-	
-
-	if((dst_x == pos_x) && (dst_y == pos_y)){
-		if (dst_z > pos_z){
-			avil_d.push_back(TSV_UP);
-		}else if(dst_z < pos_z){
-			avil_d.push_back(TSV_DOWN);
-		}else{
-			avil_d.push_back(TO_PROCESSOR);
-		}
-	}else{
-		
-		if (e_x == 0)
-		{
-			if (e_y > 0)
-			{
-				//avil_d[UP] = 1;
-				avil_d.push_back(3);
-			}
-			else{
-				avil_d.push_back(4);
-			}
-		}
-		else
-		{
-			if (e_x > 0){
-				if (e_y == 0){
-					avil_d.push_back(2);
-				}
-				else
-				{
-					if (dst_x % 2 == 1 || e_x != 1){
-						avil_d.push_back(2);
-					}
-					if ((pos_x % 2 == 1) || pos_x == src_x){
-						if (e_y > 0){
-							avil_d.push_back(3);
-						}
-						else{
-							avil_d.push_back(4);
-						}
-					}
-
-				}
-			}
-			else{
-				avil_d.push_back(1);
-				if (pos_x % 2 == 0){
-					if (e_y > 0){
-						avil_d.push_back(3);
-					}
-					else if (e_y < 0)
-					{
-						avil_d.push_back(4);
-					}
-				}
-			}
-		}
-	}
-	
-	d = avil_d[0];
-	temp_value = qtable[dst][d - 1];
-	for (int i = 1; i < avil_d.size(); i++){
-		direction = avil_d[i];
-
-		if (qtable[dst][direction] < temp_value){
-
-			// cout << "size: " << avil_d.size() << endl;
-			// cout << "temp_value: " << temp_value << endl;
-			// cout << "compare_value: " << qtable[dst][direction - 1] << endl;
-			// cout << endl; 
-			d = direction;
-			temp_value = qtable[dst][d - 1];
-		}
-	}
-
-
-	return d; 
-
-}
-*/
 
 /*
  * router type:
@@ -1326,6 +1024,11 @@ int routing(flit_type head_flit, int j){
 
 	get_xyz(dst, dst_x, dst_y, dst_z);
 	get_xyz(src, src_x, src_y, src_z);
+
+
+    int e_x = dst_x - pos_x;
+    int e_y = dst_y - pos_y;
+
 	vector<int> avil_d;
 
 	int d, direction;
@@ -1516,6 +1219,118 @@ int routing(flit_type head_flit, int j){
 					d = direction;
 					temp_value = qtable[dst][d - 1] + get_router_loss(j ,d, id);
 				}
+			}
+
+			break;
+		case 4:
+
+			if (e_x == 0 && e_y == 0){
+				return 0;
+			}
+
+			if (e_x == 0)
+			{
+				if (e_y > 0)
+				{
+					avil_d.push_back(3);
+				}
+				else{
+					avil_d.push_back(4);
+				}
+			}
+			else
+			{
+				if (e_x > 0){
+					if (e_y == 0){
+						avil_d.push_back(2);
+					}
+					else
+					{
+						if (dst_x % 2 == 1 || e_x != 1){
+							avil_d.push_back(2);
+						}
+						if ((pos_x % 2 == 1) || pos_x == src_x){
+							if (e_y > 0){
+								avil_d.push_back(3);
+							}
+							else{
+								avil_d.push_back(4);
+							}
+						}
+					}
+				}
+				else{
+					avil_d.push_back(1);
+					if (pos_x % 2 == 0){
+						if (e_y > 0){
+							avil_d.push_back(3);
+						}
+						else
+						{
+							avil_d.push_back(4);
+						}
+					}
+				}
+			}
+
+
+			d =  avil_d[rand()%avil_d.size()];
+			break;
+
+		case 5:
+			if (dst_x == pos_x){
+				if (dst_y > pos_y){
+					d = 3;
+				}else{
+					d = 4;
+				}
+			}else if (dst_y == pos_y){
+				if(dst_x > pos_x){
+					d = 2;
+				}else{
+					d = 1;
+				}
+			}else if (dst_x < pos_x){
+				d = 1;
+			}else if (dst_y > pos_y){
+				avil_d.push_back(3);
+				avil_d.push_back(2);
+
+				d =  avil_d[rand()%avil_d.size()];
+			}else {
+				avil_d.push_back(2);
+				avil_d.push_back(4);
+
+				d =  avil_d[rand()%avil_d.size()];
+			}
+			break;
+
+		case 6:
+			if (dst_x == pos_x){
+				if (dst_y > pos_y){
+					d = 3;
+				}else{
+					d = 4;
+				}
+			}else if (dst_y == pos_y){
+				if(dst_x > pos_x){
+					d = 2;
+				}else{
+					d = 1;
+				}
+			}else if (dst_x > pos_x && dst_y > pos_y){
+				avil_d.push_back(3);
+				avil_d.push_back(2);
+
+				d = avil_d[rand()%avil_d.size()];
+			}else if (dst_x < pos_x && dst_y > pos_y){
+				d = 1;
+			}else if (dst_x > pos_x && dst_y < pos_y){
+				d = 4;
+			}else {
+				avil_d.push_back(4);
+				avil_d.push_back(1);
+				d = avil_d[rand()%avil_d.size()];
 			}
 
 			break;

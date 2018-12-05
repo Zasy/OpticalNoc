@@ -1,0 +1,118 @@
+8	8	0.1	2	3	./TemperatureResult/corner-block/8x8.steady	84.0786	88702.8	18.2695	1.19147e+06	61.3557	1.61766e+08
+
+8	8	0.1	2	1	./TemperatureResult/center-block/8x8.steady	84.3899	93640.6	14.9823	103.163	41.3617	16427.3
+
+8	8	0.1	5	3	./TemperatureResult/narrow-strait/8x8.steady	84.0786	88702.8	21.0316	3443.35	47.2786	248221
+
+8	8	0.1	5	1	./TemperatureResult/narrow-strait/8x8.steady	84.3899	93640.6	24.1585	1731.32	44.1271	58350.7
+
+8	8	0.1	5	3	./TemperatureResult/corner-block/8x8.steady	84.0786	88702.8	18.2695	1.19147e+06	61.3557	1.61766e+08
+
+8	8	0.1	2	1	./TemperatureResult/corner-block/8x8.steady	84.3899	93640.6	22.977	169978	58.0753	3.57175e+07
+
+8	8	0.1	5	2	./TemperatureResult/narrow-strait/8x8.steady	61.4195	139317	27.3461	8325.61	47.9497	337958
+
+8	8	0.1	2	3	./TemperatureResult/center-block/8x8.steady	83.9598	90992.5	15.5758	275.996	43.7309	48651.5
+
+8	8	0.1	5	2	./TemperatureResult/center-block/8x8.steady	61.4195	139317	14.8793	38.2304	43.7309	48651.5
+
+8	8	0.1	2	3	./TemperatureResult/narrow-strait/8x8.steady	84.0786	88702.8	21.0316	3443.35	47.2786	248221
+
+8	8	0.1	2	2	./TemperatureResult/corner-block/8x8.steady	61.4195	139317	16.655	68687.5	59.681	7.48126e+07
+
+8	8	0.1	2	2	./TemperatureResult/center-block/8x8.steady	61.4195	139317	14.8793	38.2304	43.7309	48651.5
+
+8	8	0.1	2	2	./TemperatureResult/narrow-strait/8x8.steady	61.4195	139317	27.3461	8325.61	47.9497	337958
+
+8	8	0.1	2	1	./TemperatureResult/narrow-strait/8x8.steady	84.3899	93640.6	24.1585	1731.32	44.1271	58350.7
+
+8	8	0.1	6	3	./TemperatureResult/narrow-strait/8x8.steady	101.372	99675.9	18.6548	2445	47.2786	248221
+
+8	8	0.1	5	1	./TemperatureResult/corner-block/8x8.steady	84.3899	93640.6	22.977	169978	58.0753	3.57175e+07
+
+8	8	0.1	6	3	./TemperatureResult/center-block/8x8.steady	101.36	104193	15.047	315.737	43.7309	48651.5
+
+8	8	0.1	5	1	./TemperatureResult/center-block/8x8.steady	84.3899	93640.6	14.9823	103.163	41.3617	16427.3
+
+8	8	0.1	6	1	./TemperatureResult/corner-block/8x8.steady	71.7128	74622.2	18.3042	334.811	52.0845	2.26497e+06
+
+8	8	0.1	4	2	./TemperatureResult/corner-block/8x8.steady	64.7537	152492	16.7448	20623.8	54.4688	6.78787e+06
+
+8	8	0.1	5	2	./TemperatureResult/corner-block/8x8.steady	61.4195	139317	16.655	68687.5	59.681	7.48126e+07
+
+8	8	0.1	6	1	./TemperatureResult/narrow-strait/8x8.steady	71.7128	74622.2	20.8613	1202.75	54.1139	5.76468e+06
+
+8	8	0.1	6	2	./TemperatureResult/corner-block/8x8.steady	66.7935	143716	15.3767	32718.7	59.681	7.48126e+07
+
+8	8	0.1	5	3	./TemperatureResult/center-block/8x8.steady	83.9598	90992.5	15.5758	275.996	43.7309	48651.5
+
+8	8	0.1	4	1	./TemperatureResult/narrow-strait/8x8.steady	87.7322	90750.6	22.4037	219.343	40.6864	12062.8
+
+8	8	0.1	4	3	./TemperatureResult/center-block/8x8.steady	88.2565	86514.3	15.3384	24.0131	32.0393	246.854
+
+8	8	0.1	2	0	./TemperatureResult/narrow-strait/8x8.steady	203.383	205.752	22.2126	6108.43	51.0798	1.4264e+06
+
+8	8	0.1	4	1	./TemperatureResult/corner-block/8x8.steady	87.7322	90750.6	19.9289	12559.1	49.5975	721151
+
+8	8	0.1	4	3	./TemperatureResult/narrow-strait/8x8.steady	87.9739	82777.8	19.6274	727.873	45.5524	112278
+
+8	8	0.1	5	0	./TemperatureResult/narrow-strait/8x8.steady	203.399	212.325	21.2791	6457.87	56.4224	1.66861e+07
+
+8	8	0.1	4	2	./TemperatureResult/narrow-strait/8x8.steady	64.7537	152492	25.2188	898.157	43.1654	37535.3
+
+8	8	0.1	6	0	./TemperatureResult/center-block/8x8.steady	203.411	228.849	19.6915	677.352	45.4883	109018
+
+8	8	0.1	6	3	./TemperatureResult/corner-block/8x8.steady	101.372	99675.9	16.3128	765463	61.3557	1.61766e+08
+
+8	8	0.1	6	1	./TemperatureResult/center-block/8x8.steady	71.7128	74622.2	12.1602	8366.86	59.446	6.7141e+07
+
+8	8	0.1	4	1	./TemperatureResult/center-block/8x8.steady	87.7322	90750.6	14.9198	23.7977	32.3676	284.921
+
+8	8	0.1	2	0	./TemperatureResult/center-block/8x8.steady	203.383	205.752	20.4334	639.71	43.7309	48651.5
+
+8	8	0.1	4	3	./TemperatureResult/corner-block/8x8.steady	87.9739	82777.8	16.7663	238425	54.4688	6.78787e+06
+
+8	8	0.1	5	0	./TemperatureResult/center-block/8x8.steady	203.399	212.325	19.6174	605.505	46.1285	146302
+
+8	8	0.1	5	0	./TemperatureResult/corner-block/8x8.steady	203.399	212.325	19.2076	166987	61.3557	1.61766e+08
+
+8	8	0.1	6	2	./TemperatureResult/narrow-strait/8x8.steady	66.7935	143716	24.1308	3513.24	47.9497	337958
+
+8	8	0.1	4	0	./TemperatureResult/center-block/8x8.steady	203.399	223.261	19.4017	1500.97	52.9646	3.39623e+06
+
+8	8	0.1	4	2	./TemperatureResult/center-block/8x8.steady	64.7537	152492	15.1919	21.44	33.8826	555.919
+
+8	8	0.1	6	0	./TemperatureResult/corner-block/8x8.steady	203.411	228.849	18.7349	457097	63.5787	4.50265e+08
+
+8	8	0.1	6	2	./TemperatureResult/center-block/8x8.steady	66.7935	143716	14.7957	24.5284	43.7309	48651.5
+
+8	8	0.1	6	0	./TemperatureResult/narrow-strait/8x8.steady	203.411	228.849	21.2846	4331.39	51.0226	1.3894e+06
+
+8	8	0.1	4	0	./TemperatureResult/corner-block/8x8.steady	203.399	223.261	18.5947	3.80226e+06	70.2808	9.85994e+09
+
+8	8	0.1	2	0	./TemperatureResult/corner-block/8x8.steady	203.383	205.752	20.8844	969162	66.1235	1.45353e+09
+
+8	8	0.1	4	0	./TemperatureResult/narrow-strait/8x8.steady	203.399	223.261	21.0328	20431.7	59.9079	8.30541e+07
+
+8	8	0.1	3	0	./TemperatureResult/center-block/8x8.steady	204.857	256.222	17.7552	462.899	42.1759	23849.3
+
+8	8	0.1	3	0	./TemperatureResult/narrow-strait/8x8.steady	206.901	282.397	19.7193	351.71	44.397	66047.3
+
+8	8	0.1	3	0	./TemperatureResult/corner-block/8x8.steady	205.435	297.487	16.5465	8640.27	54.5764	7.1325e+06
+
+8	8	0.1	3	3	./TemperatureResult/corner-block/8x8.steady	138.723	51154	19.5922	27642.6	52.1047	2.28616e+06
+
+8	8	0.1	3	3	./TemperatureResult/center-block/8x8.steady	129.45	74463.6	16.5007	22.7921	30.5508	129.892
+
+8	8	0.1	3	1	./TemperatureResult/corner-block/8x8.steady	134.353	56183.1	19.3542	143.43	37.1539	2415.71
+
+8	8	0.1	3	3	./TemperatureResult/narrow-strait/8x8.steady	145.211	58835.4	21.2007	513.137	40.2847	10040
+
+8	8	0.1	3	1	./TemperatureResult/center-block/8x8.steady	142.119	59320	15.1232	17.9432	24.7414	13.2541
+
+8	8	0.1	3	2	./TemperatureResult/center-block/8x8.steady	138.555	58403.6	16.9292	23.1097	30.5508	129.892
+
+8	8	0.1	3	2	./TemperatureResult/narrow-strait/8x8.steady	125.194	54842.9	23.3232	1112	41.8872	20895.2
+
+8	8	0.1	3	1	./TemperatureResult/narrow-strait/8x8.steady	137.523	56713	20.8047	87.9402	35.817	1320.95
+

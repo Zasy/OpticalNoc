@@ -282,7 +282,7 @@ void Processor::update_generator_buffer()
 			dest_y = NOC_HEIGHT - 1 -core_x;
 			dest_x = NOC_WIDTH - 1 - core_y;
 
-			dest_temp = NOC_WIDTH*NOC_HEIGHT*dest_z + NOC_WIDTH*dest_y + dest_z;
+			dest_temp = NOC_WIDTH*NOC_HEIGHT*dest_z + NOC_WIDTH*dest_y + dest_x;
 		}else if(traffic_type == 2){
 			core_z = core_id /(NOC_WIDTH*NOC_HEIGHT);
 			core_y = core_id % (NOC_WIDTH*NOC_HEIGHT) / NOC_WIDTH;
@@ -292,7 +292,7 @@ void Processor::update_generator_buffer()
 			dest_y = NOC_HEIGHT - 1 -core_y;
 			dest_x = NOC_WIDTH - 1 - core_x;
 
-			dest_temp = NOC_WIDTH*NOC_HEIGHT*dest_z + NOC_WIDTH*dest_y + dest_z;
+			dest_temp = NOC_WIDTH*NOC_HEIGHT*dest_z + NOC_WIDTH*dest_y + dest_x;
 		}else if(traffic_type == 3){
 			core_z = core_id /(NOC_WIDTH*NOC_HEIGHT);
 			core_y = core_id % (NOC_WIDTH*NOC_HEIGHT) / NOC_WIDTH;
@@ -302,7 +302,7 @@ void Processor::update_generator_buffer()
 			dest_y = core_x;
 			dest_x = core_y;
 
-			dest_temp = NOC_WIDTH*NOC_HEIGHT*dest_z + NOC_WIDTH*dest_y + dest_z;
+			dest_temp = NOC_WIDTH*NOC_HEIGHT*dest_z + NOC_WIDTH*dest_y + dest_x;
 
 		}
 

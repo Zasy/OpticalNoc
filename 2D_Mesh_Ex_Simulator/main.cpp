@@ -19,6 +19,7 @@ int sc_main(int argc, char* argv[]) {
 	//input foldername/filename like: traffic/fattree_16/fpppp_fattree_16.stp
 
 	string file_name(argv[1]);
+	string chip_temp_file(argv[12]);
 	if(argc>=11)
 	{
 		NOC_WIDTH=atoi(argv[2]);
@@ -32,6 +33,7 @@ int sc_main(int argc, char* argv[]) {
 
 		application_num = atoi(argv[10]);
 		routing_algo = atoi(argv[11]);
+
 
 		START_RECORD=false;
 		END_RECORD=false;
@@ -54,6 +56,24 @@ int sc_main(int argc, char* argv[]) {
 		START_RECORD=false;
 		END_RECORD=false;
 	}
+
+	std::ifstream temperature_file(chip_temp_file, ios::binary);
+
+	for(int i=0; i < NOC_HEIGHT*NOC_WIDTH; i++){
+
+		string coreid;      // temp core id
+		double temperature; // temp temperature of noc
+		temperature_file >> coreid >> temperature ;
+		chip_temp[i] = temperature - 273.15;
+	}
+
+	for(int i= 0; i < NOC_HEIGHT; i++){
+		for(int j =0; j < NOC_WIDTH; j++){
+			cout << chip_temp[i*NOC_WIDTH + j] << "\t";
+		}
+		cout << endl;
+	}
+
 
 	//parameters
 	link_length = CHIP_W / NOC_WIDTH;
@@ -129,15 +149,18 @@ int sc_main(int argc, char* argv[]) {
 
 
 	double result_loss, result_power;
+	double worst_loss, worst_power;
 
 	result_loss = getAverageLoss();
 	result_power = getAveragePower();
+	worst_loss 	 = getWorstLoss();
+	worst_power	 = getWorstPower();
 
 
 	performance_log << file_name << "\t" << app_str << "\t"\
-		<<delta << "\t" << point_temp << "\t" \
-		<<L_MR_passive << "\t" << routing_algo << "\t" \
+		<< chip_temp_file << "\t" << routing_algo << "\t" \
 		<<result_loss << "\t" << result_power << "\t" \
+		<< worst_loss << "\t" << worst_power << "\t" \
 		<<noc->Average_ETE_delay<<"\t"<<noc->appliction_performance<<"\t" << endl;
 
 	// for(int i=0;i<execution_iterations;i++)

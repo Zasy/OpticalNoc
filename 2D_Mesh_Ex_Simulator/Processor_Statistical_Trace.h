@@ -333,22 +333,13 @@ void Processor::receive_packet()
 
 					}		
 				}
-				addData(temp_flit);
-				total_pkt += 1;
+
 				loss_list_log << temp_flit.src << "\t" << temp_flit.dest << "\t" << temp_flit.optical_loss << "\t"<< temp_flit.generate_time <<"\t"<< sc_time_stamp().to_double() / 1000 <<endl;
 				double temp_power = get_Power_EO( temp_flit.optical_loss, T_0, temp_flit.N_active);
 				power_list_log << temp_flit.src << "\t" << temp_flit.dest << "\t" << temp_power << "\t"<< temp_flit.generate_time <<"\t"<< sc_time_stamp().to_double() / 1000 << endl;
-
-				if (temp_flit.dest == 17 && temp_flit.src == 0){
-					trace_list_log << temp_flit.generate_time << "\t" << temp_flit.src << "\t" << temp_flit.dest << "\t" << sc_time_stamp().to_double() / 1000 << endl;
-					for (int i = 0; i < temp_flit.routing_list.size(); i++)
-					{
-						trace_list_log << temp_flit.routing_list[i].id << "\t";
-					}
-					trace_list_log << "\n";
-				}
-
-						
+				temp_flit.power_all = temp_power;
+				addData(temp_flit);
+				total_pkt += 1;
 			}//end if tail
 
 		}	

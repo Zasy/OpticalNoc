@@ -835,10 +835,6 @@ int routing(flit_type head_flit, int j){
 
 
 			d =  avil_d[rand()%avil_d.size()];
-			cout << "src_x\t" << "src_y\t" << "pos_x\t" << "pos_y\t" << "dst_x\t" << "dst_y\t" << endl;
-			cout << src_x << "\t" << src_y << "\t" << pos_x << "\t" << pos_y << "\t" << dst_x << "\t" << dst_y << endl;
-			cout << "d\t" << "avil_d size"<< endl;
-			cout << d << "\t" << avil_d.size()<< endl;
 			break;
 
 	    case 5:

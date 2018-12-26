@@ -1,105 +1,1 @@
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/corner-block/8x8.steady	5	12.0645	5650.17	45.6669	118341	93371.5	7.83781e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/narrow-strait/8x8.steady	6	13.865	18.3077	27.9841	44.8035	92755.3	7.51588e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/center-block/8x8.steady	5	15.1204	255.547	40.0505	9021.62	93371.5	7.83781e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/corner-block/8x8.steady	6	11.831	5649.48	45.6669	118341	92755.3	7.51588e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/narrow-strait/8x8.steady	4	13.8785	18.5839	27.9841	44.8035	85600.2	7.44555e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/center-block/8x8.steady	2	15.1204	255.547	40.0505	9021.62	96317.2	7.98467e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/narrow-strait/8x8.steady	2	13.7832	18.8183	28.8334	63.2459	96317.2	7.98467e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/narrow-strait/8x8.steady	5	13.7832	18.8183	28.8334	63.2459	93371.5	7.83781e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/corner-block/8x8.steady	4	11.6723	5649.36	45.6669	118341	85600.2	7.44555e-05	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/center-block/8x8.steady	2	18.1551	764.116	42.8453	32411.1	110862	0.00018226	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/narrow-strait/8x8.steady	2	16.4255	834.259	49.1794	594963	110862	0.00018226	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/center-block/8x8.steady	6	14.5143	239.635	40.0505	9021.62	92755.3	7.51588e-05	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/corner-block/8x8.steady	6	13.5419	54636	61.6587	1.85994e+08	111378	0.000157571	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/center-block/8x8.steady	5	17.6428	737.359	42.8453	32411.1	111320	0.000163465	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/center-block/8x8.steady	4	15.045	256.249	40.0505	9021.62	85600.2	7.44555e-05	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/corner-block/8x8.steady	5	13.7645	14335	58.0753	3.57175e+07	111320	0.000163465	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/narrow-strait/8x8.steady	6	15.7071	514.604	49.7977	790743	111378	0.000157571	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/corner-block/8x8.steady	2	12.0959	5650.3	45.6669	118341	96317.2	7.98467e-05	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/narrow-strait/8x8.steady	5	15.756	321.774	47.8151	317672	111320	0.000163465	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/corner-block/8x8.steady	2	14.3899	107487	63.7243	4.81501e+08	110862	0.00018226	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/center-block/8x8.steady	6	17.6626	2435.13	54.8647	8.14508e+06	111378	0.000157571	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/narrow-strait/8x8.steady	4	15.6922	434.103	49.5966	720864	111377	0.000142325	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/corner-block/8x8.steady	4	13.5441	171248	65.036	8.80875e+08	111377	0.000142325	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/center-block/8x8.steady	4	17.5909	768.847	43.739	48831.3	111377	0.000142325	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/center-block/8x8.steady	3	16.8153	665.65	42.06	22616.1	111670	0.000174718	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/corner-block/8x8.steady	3	12.8232	835.849	51.1186	1.45211e+06	111156	0.000166242	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/center-block/8x8.steady	6	6.00052	7.20517	18.8609	2.72954	187678	4.30997e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/narrow-strait/8x8.steady	5	6.43278	8.36206	26.935	29.6438	196888	4.27984e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/narrow-strait/8x8.steady	2	6.86166	9.53637	26.935	29.6438	185210	4.31866e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/center-block/8x8.steady	4	5.87901	7.07517	18.685	2.64341	203817	4.00291e-05	
-./trafficnew/2d_mesh_8x8/satell_2d_mesh_8x8.stp	satell	./TemperatureResult/narrow-strait/8x8.steady	3	14.885	78.9326	41.7487	19611.1	114485	0.000130206	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/narrow-strait/8x8.steady	6	6.58143	9.23787	28.6499	58.6662	187678	4.30997e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/corner-block/8x8.steady	2	10.079	11.5914	20.87	4.19479	185210	4.31866e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/corner-block/8x8.steady	6	10.2231	11.8497	23.1805	7.94789	187678	4.30997e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/center-block/8x8.steady	5	5.87064	7.07313	18.8609	2.72954	196888	4.27984e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/corner-block/8x8.steady	5	9.90907	11.3594	20.87	4.19479	196888	4.27984e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/corner-block/8x8.steady	4	10.1033	11.5597	20.87	4.19479	203817	4.00291e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/narrow-strait/8x8.steady	4	6.49154	8.44663	27.0268	30.7197	203817	4.00291e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/center-block/8x8.steady	2	6.29466	8.94078	28.4478	54.0275	185210	4.31866e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/narrow-strait/8x8.steady	3	6.35307	8.25379	26.8427	28.6102	197556	4.74275e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/corner-block/8x8.steady	3	9.20746	10.5006	18.7384	2.66701	196396	4.40652e-05	
-./trafficnew/2d_mesh_8x8/h264dl_2d_mesh_8x8.stp	h264dl	./TemperatureResult/center-block/8x8.steady	3	5.77148	6.95515	18.685	2.64341	193999	4.32966e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/narrow-strait/8x8.steady	2	15.4386	1159.54	47.8151	317672	327024	1.92049e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/corner-block/8x8.steady	6	6.68127	7.92324	23.1167	7.79153	308676	1.65199e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/center-block/8x8.steady	6	6.20809	7.40946	18.685	2.64341	308676	1.65199e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/center-block/8x8.steady	5	6.27127	8.05541	28.2268	49.4001	308566	1.58799e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/narrow-strait/8x8.steady	2	5.54254	6.8268	24.4949	12.1781	284540	1.7627e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/center-block/8x8.steady	5	18.6769	1012.27	42.8453	32411.1	308328	2.37341e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/narrow-strait/8x8.steady	6	14.9813	5090.31	49.9823	860833	452471	2.581e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/narrow-strait/8x8.steady	6	15.3087	948.575	47.8151	317672	314776	2.20583e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/corner-block/8x8.steady	5	13.3914	114.823	40.8254	12853.9	308328	2.37341e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/narrow-strait/8x8.steady	2	15.08	4696.3	49.9823	860833	438266	2.69352e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/corner-block/8x8.steady	4	6.62918	7.87047	23.1167	7.79153	276446	1.67092e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/narrow-strait/8x8.steady	5	5.31264	6.47558	19.0334	2.81907	308566	1.58799e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/center-block/8x8.steady	2	19.4849	1056.16	42.8453	32411.1	327024	1.92049e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/corner-block/8x8.steady	2	14.0925	2906.41	51.2223	1.52313e+06	327024	1.92049e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/narrow-strait/8x8.steady	6	5.37955	6.54278	18.742	2.67274	308676	1.65199e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/narrow-strait/8x8.steady	5	14.8108	3144.39	49.9823	860833	509361	2.08877e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/narrow-strait/8x8.steady	5	15.207	1126.4	47.8151	317672	308328	2.37341e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/corner-block/8x8.steady	5	6.62842	7.89677	23.1167	7.79153	308566	1.58799e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/center-block/8x8.steady	2	6.74138	9.57576	28.4478	54.0275	284540	1.7627e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/center-block/8x8.steady	3	13.8768	232.633	40.0505	9021.62	103703	8.28432e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/corner-block/8x8.steady	2	6.71409	7.98475	23.1167	7.79153	284540	1.7627e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/narrow-strait/8x8.steady	4	15.176	244.921	44.1243	58276.6	311603	2.64039e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/center-block/8x8.steady	2	15.8542	586.924	41.9605	21608.6	438266	2.69352e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/corner-block/8x8.steady	3	6.44423	7.68109	23.1167	7.79153	297737	1.74152e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/center-block/8x8.steady	6	18.4341	1059.24	42.8453	32411.1	314776	2.20583e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/corner-block/8x8.steady	2	10.7341	1876.33	50.1843	944685	438266	2.69352e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/corner-block/8x8.steady	5	10.451	203.391	41.6789	18994.5	509361	2.08877e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/corner-block/8x8.steady	6	13.4567	158.708	41.8296	20350.9	314776	2.20583e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/corner-block/8x8.steady	6	10.3712	3221.04	51.5351	1.75897e+06	452471	2.581e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/center-block/8x8.steady	2	18.8258	713.811	42.8453	32411.1	365852	3.75328e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/narrow-strait/8x8.steady	4	5.36793	6.53017	18.742	2.67274	276446	1.67092e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/center-block/8x8.steady	6	15.5255	570.086	41.9605	21608.6	452471	2.581e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/center-block/8x8.steady	4	6.3159	8.0988	28.2268	49.4001	276446	1.67092e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/corner-block/8x8.steady	2	17.2439	43490.8	60.757	1.22788e+08	365852	3.75328e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/narrow-strait/8x8.steady	3	5.21835	6.37817	18.742	2.67274	297737	1.74152e-05	
-./trafficnew/2d_mesh_8x8/robot_2d_mesh_8x8.stp	robot	./TemperatureResult/center-block/8x8.steady	3	6.10367	7.30234	18.685	2.64341	296065	1.76436e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/center-block/8x8.steady	5	17.6718	636.276	42.8453	32411.1	366508	3.62571e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/center-block/8x8.steady	5	15.5293	574.709	41.9605	21608.6	509361	2.08877e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/corner-block/8x8.steady	4	13.5051	692.118	49.239	611498	311603	2.64039e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/narrow-strait/8x8.steady	2	17.2857	1403.85	49.5299	699063	365852	3.75328e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/narrow-strait/8x8.steady	4	14.8497	2287.63	49.9823	860833	534352	2.71726e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/corner-block/8x8.steady	4	10.2095	78.3065	42.2985	25227.1	534352	2.71726e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/narrow-strait/8x8.steady	6	16.6467	1575.09	51.0226	1.3894e+06	369282	3.66766e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/center-block/8x8.steady	6	17.6867	699.859	42.8453	32411.1	369282	3.66766e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/corner-block/8x8.steady	5	14.383	1942.68	53.1086	3.62909e+06	366508	3.62571e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/corner-block/8x8.steady	6	14.2674	1376.52	53.1086	3.62909e+06	369282	3.66766e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/narrow-strait/8x8.steady	3	13.4319	18.082	29.6756	89.7095	103074	8.16682e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/center-block/8x8.steady	4	18.3235	1028.09	42.8453	32411.1	311603	2.64039e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/narrow-strait/8x8.steady	4	16.5722	479.92	49.852	810746	365641	3.53016e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/center-block/8x8.steady	4	15.4142	530.815	42.1856	23955.6	534352	2.71726e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/narrow-strait/8x8.steady	5	16.3682	1246.86	51.9405	2.11975e+06	366508	3.62571e-05	
-./trafficnew/2d_mesh_8x8/sparse_2d_mesh_8x8.stp	sparse	./TemperatureResult/corner-block/8x8.steady	3	10.8154	154.639	37.6181	2981.36	128418	7.09052e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/corner-block/8x8.steady	4	14.6998	1649.81	54.4752	6.80785e+06	365641	3.53016e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/center-block/8x8.steady	4	17.6987	595.56	42.8453	32411.1	365641	3.53016e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/center-block/8x8.steady	3	17.6437	875.015	42.06	22616.1	329203	2.17904e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/corner-block/8x8.steady	3	12.6404	62.8743	39.1147	5887.31	302065	2.02753e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/corner-block/8x8.steady	3	13.2766	74.8016	45.2311	96870.6	372159	2.44578e-05	
-./trafficnew/2d_mesh_8x8/fpppp_2d_mesh_8x8.stp	fpppp	./TemperatureResult/narrow-strait/8x8.steady	3	14.5254	84.2936	39.8599	8270.05	324237	2.02025e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/narrow-strait/8x8.steady	3	15.8672	200.419	44.397	66047.3	367630	2.41422e-05	
-./trafficnew/2d_mesh_8x8/h264dh_2d_mesh_8x8.stp	h264dh	./TemperatureResult/center-block/8x8.steady	3	16.7669	519.194	42.06	22616.1	384818	2.66811e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/corner-block/8x8.steady	3	9.84775	50.6983	40.7601	12476.2	518413	3.10243e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/center-block/8x8.steady	3	14.942	461.691	41.9605	21608.6	476086	2.46554e-05	
-./trafficnew/2d_mesh_8x8/sample_2d_mesh_8x8.stp	sample	./TemperatureResult/narrow-strait/8x8.steady	3	14.4925	242.277	41.8872	20895.2	503352	2.32176e-05	
+FPPPP					H264HL								19.4849	1056.16	327024	1.92E-05		18.8258	713.811	365852	3.75E-05		6.29466	8.94078	185210	4.32E-0517.6437	875.015	329203	2.18E-05		16.7669	519.194	384818	2.67E-05		5.77148	6.95515	193999	4.33E-0518.3235	1028.09	311603	2.64E-05		17.6987	595.56	365641	3.53E-05		5.87901	7.07517	203817	4.00E-0518.6769	1012.27	308328	2.37E-05		17.6718	636.276	366508	3.63E-05		5.87064	7.07313	196888	4.28E-0518.4341	1059.24	314776	2.21E-05		17.6867	699.859	369282	3.67E-05		6.00052	7.20517	187678	4.31E-05																		SAMPLE					SATELL			6.74138	9.57576	284540	1.76E-05		15.8542	586.924	438266	2.69E-05		18.1551	764.116	110862	0.000182266.10367	7.30234	296065	1.76E-05		14.942	461.691	476086	2.47E-05		16.8153	665.65	111670	0.0001747186.3159	8.0988	276446	1.67E-05		15.4142	530.815	534352	2.72E-05		17.5909	768.847	111377	0.0001423256.27127	8.05541	308566	1.59E-05		15.5293	574.709	509361	2.09E-05		17.6428	737.359	111320	0.0001634656.20809	7.40946	308676	1.65E-05		15.5255	570.086	452471	2.58E-05		17.6626	2435.13	111378	0.000157571																										15.1204	255.547	96317.2	7.98E-05										13.8768	232.633	103703	8.28E-05										15.045	256.249	85600.2	7.45E-05										15.1204	255.547	93371.5	7.84E-05										14.5143	239.635	92755.3	7.52E-05										
